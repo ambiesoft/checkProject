@@ -20,9 +20,11 @@ namespace checkProject
 
         private void FormMain_Load(object sender, EventArgs e)
         {
+            this.Text = Application.ProductName;
+            this.Text += " (check UseDebugLibraries)";
             try
             {
-                checkProject(@"C:\T\Win32Project1\Win32Project1\Win32Project1.vcxproj");
+                // checkProject(@"C:\T\Win32Project1\Win32Project1\Win32Project1.vcxproj");
             }
             catch (Exception ex)
             {

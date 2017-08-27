@@ -48,21 +48,24 @@
             this.txtResult.Name = "txtResult";
             this.txtResult.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtResult.Size = new System.Drawing.Size(536, 172);
-            this.txtResult.TabIndex = 0;
+            this.txtResult.TabIndex = 8;
             // 
             // txtFolder
             // 
-            this.txtFolder.Location = new System.Drawing.Point(66, 3);
+            this.txtFolder.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtFolder.Location = new System.Drawing.Point(66, 7);
             this.txtFolder.Name = "txtFolder";
             this.txtFolder.Size = new System.Drawing.Size(443, 20);
-            this.txtFolder.TabIndex = 1;
+            this.txtFolder.TabIndex = 2;
             // 
             // btnBrowse
             // 
-            this.btnBrowse.Location = new System.Drawing.Point(515, 0);
+            this.btnBrowse.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnBrowse.Location = new System.Drawing.Point(515, 5);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(33, 23);
-            this.btnBrowse.TabIndex = 2;
+            this.btnBrowse.TabIndex = 3;
             this.btnBrowse.Text = "&...";
             this.btnBrowse.UseVisualStyleBackColor = true;
             this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
@@ -72,24 +75,27 @@
             this.btnStart.Location = new System.Drawing.Point(12, 69);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 23);
-            this.btnStart.TabIndex = 3;
+            this.btnStart.TabIndex = 6;
             this.btnStart.Text = "&Start";
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // btnClear
             // 
+            this.btnClear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClear.Location = new System.Drawing.Point(473, 69);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
-            this.btnClear.TabIndex = 4;
+            this.btnClear.TabIndex = 7;
             this.btnClear.Text = "&Clear";
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // txtFilter
             // 
-            this.txtFilter.Location = new System.Drawing.Point(66, 29);
+            this.txtFilter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtFilter.Location = new System.Drawing.Point(66, 33);
             this.txtFilter.Name = "txtFilter";
             this.txtFilter.Size = new System.Drawing.Size(443, 20);
             this.txtFilter.TabIndex = 5;
@@ -97,19 +103,19 @@
             // lblDirectory
             // 
             this.lblDirectory.AutoSize = true;
-            this.lblDirectory.Location = new System.Drawing.Point(9, 6);
+            this.lblDirectory.Location = new System.Drawing.Point(9, 10);
             this.lblDirectory.Name = "lblDirectory";
             this.lblDirectory.Size = new System.Drawing.Size(39, 13);
-            this.lblDirectory.TabIndex = 6;
+            this.lblDirectory.TabIndex = 1;
             this.lblDirectory.Text = "&Folder:";
             // 
             // lblFilter
             // 
             this.lblFilter.AutoSize = true;
-            this.lblFilter.Location = new System.Drawing.Point(9, 32);
+            this.lblFilter.Location = new System.Drawing.Point(9, 36);
             this.lblFilter.Name = "lblFilter";
             this.lblFilter.Size = new System.Drawing.Size(32, 13);
-            this.lblFilter.TabIndex = 6;
+            this.lblFilter.TabIndex = 4;
             this.lblFilter.Text = "&Fi&lter:";
             // 
             // FormMain
